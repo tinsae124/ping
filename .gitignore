@@ -1,0 +1,6 @@
+# Ignore temporary files
+*.tmp
+*.log
+
+# Ignore Ansible facts cache
+.ansible/
