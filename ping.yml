@@ -1,7 +1,6 @@
 ---
 - name: Ping all hosts
-  hosts: localhost
-  connection: local
+  hosts: all
   tasks:
     - name: Ping
       ping:
