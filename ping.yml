@@ -1,8 +1,9 @@
 ---
 - name: Ping all hosts
-  hosts: 102.23.206.208
+  hosts: all
+  gather_facts: no
   tasks:
     - name: Ping
-      ansible.builtin.debug:
-      msg: "pinging machines"
+      ping:
+
 
