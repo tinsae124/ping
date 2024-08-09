@@ -3,5 +3,6 @@
   hosts: 102.23.206.208
   tasks:
     - name: Ping
-      ping:
+      ansible.builtin.debug:
+      msg: "pinging machines"
 
